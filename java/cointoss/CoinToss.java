@@ -8,7 +8,7 @@ public class CoinToss
         
         System.out.println(basicVersion());
         
-        advancedVersion();
+        //advancedVersion();
         
     }
 
