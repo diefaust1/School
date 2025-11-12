@@ -44,6 +44,7 @@ public class Roulette {
             {
                 case 1: //Wager single bet
                     
+                    //Check against numbers that are invalid
                     System.out.println("On which number do you like to bet?");
                     chosenNumber = sc.nextInt();
                     
