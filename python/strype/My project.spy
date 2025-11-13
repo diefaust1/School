@@ -1,0 +1,23 @@
+#(=> Strype:1:std
+#(=> peaLayoutMode:tabsExpanded
+#(=> peaExpandedSplitterPane2Size:{"tabsExpanded":50}
+'''Squares'''
+#(=> Section:Imports
+from strype.graphics import * 
+#(=> Section:Definitions
+def createSquare (height,width ) :
+    image  = Image(width,height) 
+    image.set_stroke("Black") 
+    image.draw_rect(0,0,width,height) 
+    return image 
+#(=> Section:Main
+set_background("White") 
+squareOne  = Actor(createSquare(100,100),0,0) 
+squareTwo  = Actor(createSquare(100,100),80,0) 
+squareThree  = Actor(createSquare(100,100),0,80) 
+while True  :
+    squareOne.turn(1) 
+    squareTwo.turn(1) 
+    squareThree.turn(1) 
+    pace(60) 
+#(=> Section:End
