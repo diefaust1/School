@@ -1,0 +1,13 @@
+#(=> Strype:1:std
+'''Dont get caught'''
+#(=> Section:Imports
+from strype.graphics import * 
+from random import randint 
+#(=> Section:Definitions
+#(=> Section:Main
+#1. Variables 
+
+#2. Actors
+
+#3. Interactions
+#(=> Section:End
